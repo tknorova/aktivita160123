@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #cccccc;
+}
+
+.seznam-bank {
+    list-style: none;
+    padding: 0;
+}
+
+.polozka-banky {
+    border: 4px solid black;
+    margin: 10px;
+    padding: 25px;
+    background-color: #e5e5e5;
+
+}
+
+.červená-skóre {
+    color: red;
+    font-weight: bolder;
+}
+
+.oranžový-skóre {
+    color: orange;
+    font-weight: bold;
+}
+
+.zelený-skóre {
+    color: green;
+    font-weight: bold;
+}
+
+#vstupVyhledavani{
+  border-radius:4px ;
+}
+
+.oblibene-tlacitko{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#srdicko {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#srdicko span {
+    margin-left: 5px;
+}
+
+
+
+
